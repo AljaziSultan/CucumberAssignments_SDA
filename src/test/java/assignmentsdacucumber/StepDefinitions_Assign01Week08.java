@@ -44,17 +44,17 @@ public class StepDefinitions_Assign01Week08 {
                 .checkAgreeCheckbox();
     }
 
-    @When("I enter \"<invalid_data_field>\" with \"<invalid_value>\"")
-    public void enterInvalidData(String field, String value) {
-        switch (field) {
-            case "First Name":
-                registrationPage.enterFirstName(value);
-                break;
-            case "Last Name":
-                registrationPage.enterLastName(value);
-                break;
-        }
-    }
+//    @When("I enter \"<invalid_data_field>\" with \"<invalid_value>\"")
+//    public void enterInvalidData(String field, String value) {
+//        switch (field) {
+//            case "First Name":
+//                registrationPage.enterFirstName(value);
+//                break;
+//            case "Last Name":
+//                registrationPage.enterLastName(value);
+//                break;
+//        }
+//    }
 
     @When("I submit the registration form")
     public void submitRegistration() {
